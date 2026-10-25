@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1024 1024">
+  <defs>
+    <pattern id="dots" width="48" height="48" patternUnits="userSpaceOnUse">
+      <circle cx="24" cy="24" r="3" fill="#1e293b"/>
+    </pattern>
+  </defs>
+  <rect width="1024" height="1024" fill="#0b1220"/>
+  <rect width="1024" height="1024" fill="url(#dots)"/>
+  <!-- shield: security -->
+  <path d="M512 196 L800 292 V520 C800 704 676 806 512 868 C348 806 224 704 224 520 V292 Z" fill="#16a34a"/>
+  <path d="M512 196 L800 292 V520 C800 704 676 806 512 868 Z" fill="#15803d"/>
+  <!-- magnifier: quality / testing -->
+  <circle cx="490" cy="498" r="122" fill="none" stroke="#ffffff" stroke-width="38"/>
+  <line x1="580" y1="588" x2="668" y2="676" stroke="#ffffff" stroke-width="48" stroke-linecap="round"/>
+  <!-- check: passed -->
+  <path d="M432 500 L474 542 L550 460" fill="none" stroke="#facc15" stroke-width="32" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>
